@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Unorthodox Ways to Improve English Listening Skills</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+
+<link href="styles.css" rel="stylesheet"/></head>
+<body class="bg-gray-50">
+<!-- Navigation -->
+<nav class="fixed top-0 w-full bg-white shadow-lg z-50 transition-all duration-300">
+<div class="container mx-auto px-6 py-4">
+<div class="flex justify-between items-center">
+<div class="text-xl font-bold text-gray-800">
+<i class="fas fa-headphones mr-2 text-blue-600"></i>
+                    English Listening Master
+                </div>
+<div class="hidden md:flex space-x-6">
+<a class="text-gray-600 hover:text-blue-600 transition" href="#home">Home</a>
+<a class="text-gray-600 hover:text-blue-600 transition" href="#activities">Activities</a>
+<a class="text-gray-600 hover:text-blue-600 transition" href="#reflection">Reflection</a>
+</div>
+<div class="bg-blue-100 px-4 py-2 rounded-full">
+<span class="text-blue-800 text-sm font-medium">Progress: <span id="overall-progress">0</span>%</span>
+</div>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="gradient-bg min-h-screen flex items-center justify-center text-white relative overflow-hidden" id="home">
+<div class="absolute inset-0 opacity-10">
+<div class="absolute top-20 left-20 w-64 h-64 bg-white rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
+<div class="absolute top-40 right-20 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl animate-pulse animation-delay-2000"></div>
+<div class="absolute bottom-20 left-1/2 w-80 h-80 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl animate-pulse animation-delay-4000"></div>
+</div>
+<div class="text-center z-10 max-w-4xl mx-auto px-6">
+<div class="fade-in">
+<h1 class="text-5xl md:text-7xl font-bold mb-6">
+                    Unorthodox Ways to Improve
+                    <span class="block text-yellow-300">English Listening Skills</span>
+</h1>
+</div>
+<div class="fade-in" style="animation-delay: 0.3s;">
+<p class="text-xl md:text-2xl mb-8 opacity-90">
+                    Today, we'll try new methods to boost listening, speaking, and memory!
+                </p>
+</div>
+<div class="fade-in" style="animation-delay: 0.6s;">
+<button class="interactive-button text-white px-8 py-4 rounded-full text-lg font-semibold shadow-2xl" onclick="startJourney()">
+<i class="fas fa-play mr-2"></i>
+                    Start Your Learning Journey
+                </button>
+</div>
+</div>
+<div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
+<i class="fas fa-chevron-down text-2xl"></i>
+</div>
+</section>
+<!-- Progress Indicator -->
+<div class="fixed top-20 left-0 w-full h-1 bg-gray-200 z-40">
+<div class="progress-bar h-full bg-gradient-to-r from-blue-500 to-purple-600" id="scroll-progress"></div>
+</div>
+<!-- Activities Section -->
+<section class="py-20 bg-gray-50" id="activities">
+<div class="container mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-gray-800 mb-4">Interactive Learning Activities</h2>
+<p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Discover innovative techniques that will transform your English listening abilities
+                </p>
+</div>
+<!-- Activity 1: Self-Diagnosis -->
+<div class="mb-16 fade-in">
+<div class="bg-white rounded-3xl shadow-2xl p-8 hover-lift">
+<div class="flex items-center mb-6">
+<div class="gradient-card w-16 h-16 rounded-full flex items-center justify-center mr-4">
+<i class="fas fa-user-md text-white text-2xl"></i>
+</div>
+<div>
+<h3 class="text-3xl font-bold text-gray-800">Activity 1: Self-Diagnosis</h3>
+<p class="text-gray-600">Assess and improve your listening comprehension</p>
+</div>
+</div>
+<div class="grid md:grid-cols-2 gap-8">
+<div>
+<h4 class="text-xl font-semibold mb-4 text-gray-700">Steps to Follow:</h4>
+<div class="space-y-4">
+<div class="flex items-center p-4 bg-blue-50 rounded-lg">
+<span class="w-8 h-8 bg-blue-500 text-white rounded-full flex items-center justify-center mr-4 text-sm font-bold">1</span>
+<span>Listen to audio without subtitles</span>
+</div>
+<div class="flex items-center p-4 bg-green-50 rounded-lg">
+<span class="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center mr-4 text-sm font-bold">2</span>
+<span>Write down words/phrases you catch</span>
+</div>
+<div class="flex items-center p-4 bg-purple-50 rounded-lg">
+<span class="w-8 h-8 bg-purple-500 text-white rounded-full flex items-center justify-center mr-4 text-sm font-bold">3</span>
+<span>Watch again with subtitles</span>
+</div>
+<div class="flex items-center p-4 bg-orange-50 rounded-lg">
+<span class="w-8 h-8 bg-orange-500 text-white rounded-full flex items-center justify-center mr-4 text-sm font-bold">4</span>
+<span>Speak aloud the corrected sentences</span>
+</div>
+</div>
+</div>
+<div class="glass-effect rounded-2xl p-6">
+<h4 class="text-xl font-semibold mb-4 text-gray-700">Interactive Practice</h4>
+<div class="bg-gray-100 p-6 rounded-lg mb-4">
+<div class="flex items-center justify-center mb-4">
+<div class="w-20 h-20 bg-blue-500 rounded-full flex items-center justify-center">
+<i class="fas fa-play text-white text-2xl cursor-pointer" onclick="simulateAudio(1)"></i>
+</div>
+</div>
+<p class="text-center text-gray-600 mb-4">Click play to start audio simulation</p>
+<div class="hidden" id="audio-text-1">
+<p class="italic text-gray-700">"The weather forecast predicts heavy rainfall tomorrow afternoon."</p>
+</div>
+</div>
+<textarea class="w-full p-3 border rounded-lg mb-4" id="user-input-1" placeholder="Write what you heard..."></textarea>
+<button class="interactive-button text-white px-6 py-2 rounded-lg w-full" onclick="checkAnswer(1)">
+                                Check Answer
+                            </button>
+<div class="mt-4 hidden" id="result-1"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Activity 2: Roleplay Practice -->
+<div class="mb-16 fade-in">
+<div class="bg-white rounded-3xl shadow-2xl p-8 hover-lift">
+<div class="flex items-center mb-6">
+<div class="gradient-green w-16 h-16 rounded-full flex items-center justify-center mr-4">
+<i class="fas fa-theater-masks text-white text-2xl"></i>
+</div>
+<div>
+<h3 class="text-3xl font-bold text-gray-800">Activity 2: Roleplay Practice</h3>
+<p class="text-gray-600">Interactive dialogue practice scenarios</p>
+</div>
+</div>
+<div class="grid md:grid-cols-2 gap-8">
+<div>
+<h4 class="text-xl font-semibold mb-4 text-gray-700">Sample Scenarios:</h4>
+<div class="space-y-4">
+<div class="bg-gradient-to-r from-blue-100 to-blue-200 p-4 rounded-lg cursor-pointer hover:shadow-lg transition" onclick="selectScenario('coffee')">
+<h5 class="font-semibold text-blue-800">â Ordering Coffee</h5>
+<p class="text-blue-600 text-sm">Practice cafe conversations</p>
+</div>
+<div class="bg-gradient-to-r from-green-100 to-green-200 p-4 rounded-lg cursor-pointer hover:shadow-lg transition" onclick="selectScenario('directions')">
+<h5 class="font-semibold text-green-800">ðºï¸ Asking Directions</h5>
+<p class="text-green-600 text-sm">Navigate conversations</p>
+</div>
+<div class="bg-gradient-to-r from-purple-100 to-purple-200 p-4 rounded-lg cursor-pointer hover:shadow-lg transition" onclick="selectScenario('shopping')">
+<h5 class="font-semibold text-purple-800">ðï¸ Shopping</h5>
+<p class="text-purple-600 text-sm">Retail conversations</p>
+</div>
+</div>
+</div>
+<div class="glass-effect rounded-2xl p-6" id="roleplay-area">
+<h4 class="text-xl font-semibold mb-4 text-gray-700">Select a scenario to begin</h4>
+<div class="text-center text-gray-500">
+<i class="fas fa-arrow-left text-4xl mb-4"></i>
+<p>Choose a scenario from the left to start practicing!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Activity 3: Linguistic Tools -->
+<div class="mb-16 fade-in">
+<div class="bg-white rounded-3xl shadow-2xl p-8 hover-lift">
+<div class="flex items-center mb-6">
+<div class="gradient-purple w-16 h-16 rounded-full flex items-center justify-center mr-4">
+<i class="fas fa-tools text-white text-2xl"></i>
+</div>
+<div>
+<h3 class="text-3xl font-bold text-gray-800">Activity 3: Linguistic Tools</h3>
+<p class="text-gray-600">Master sound discrimination and intonation</p>
+</div>
+</div>
+<div class="grid md:grid-cols-2 gap-8">
+<!-- Minimal Pairs -->
+<div class="bg-gradient-to-br from-pink-50 to-purple-50 p-6 rounded-2xl">
+<h4 class="text-xl font-semibold mb-4 text-gray-800">
+<i class="fas fa-headphones mr-2 text-pink-600"></i>
+                                Minimal Pairs Practice
+                            </h4>
+<p class="text-gray-600 mb-4">Sharpen your sound discrimination skills</p>
+<div class="space-y-3">
+<div class="minimal-pair-item bg-white p-4 rounded-lg shadow-sm cursor-pointer hover:shadow-md transition" onclick="playMinimalPair('ship-sheep')">
+<div class="flex justify-between items-center">
+<span class="font-medium">Ship ð¢ vs Sheep ð</span>
+<i class="fas fa-play text-pink-600"></i>
+</div>
+</div>
+<div class="minimal-pair-item bg-white p-4 rounded-lg shadow-sm cursor-pointer hover:shadow-md transition" onclick="playMinimalPair('bit-beat')">
+<div class="flex justify-between items-center">
+<span class="font-medium">Bit vs Beat</span>
+<i class="fas fa-play text-pink-600"></i>
+</div>
+</div>
+<div class="minimal-pair-item bg-white p-4 rounded-lg shadow-sm cursor-pointer hover:shadow-md transition" onclick="playMinimalPair('think-sink')">
+<div class="flex justify-between items-center">
+<span class="font-medium">Think ð¤ vs Sink</span>
+<i class="fas fa-play text-pink-600"></i>
+</div>
+</div>
+</div>
+<div class="mt-4 hidden p-3 bg-green-100 text-green-800 rounded-lg" id="minimal-pair-feedback">
+                                Great! You're improving your sound discrimination.
+                            </div>
+</div>
+<!-- Prosody Practice -->
+<div class="bg-gradient-to-br from-blue-50 to-indigo-50 p-6 rounded-2xl">
+<h4 class="text-xl font-semibold mb-4 text-gray-800">
+<i class="fas fa-wave-square mr-2 text-blue-600"></i>
+                                Prosody Practice
+                            </h4>
+<p class="text-gray-600 mb-4">Stress and intonation change meaning</p>
+<div class="space-y-4">
+<div class="prosody-example bg-white p-4 rounded-lg shadow-sm">
+<p class="font-medium mb-2">Example: "I didn't say he stole the money"</p>
+<div class="space-y-2">
+<button class="text-left w-full p-2 bg-blue-50 rounded hover:bg-blue-100 transition" onclick="playProsody('I')">
+<strong>I</strong> didn't say... (Someone else said it)
+                                        </button>
+<button class="text-left w-full p-2 bg-blue-50 rounded hover:bg-blue-100 transition" onclick="playProsody('didn\'t')">
+                                            I <strong>didn't</strong> say... (I absolutely did not)
+                                        </button>
+<button class="text-left w-full p-2 bg-blue-50 rounded hover:bg-blue-100 transition" onclick="playProsody('he')">
+                                            I didn't say <strong>he</strong>... (Someone else did)
+                                        </button>
+</div>
+</div>
+<div class="hidden p-3 bg-indigo-100 text-indigo-800 rounded-lg" id="prosody-feedback">
+                                    Excellent! Notice how emphasis changes the entire meaning.
+                                </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Activity 4: Kinesthetic Encoding -->
+<div class="mb-16 fade-in">
+<div class="bg-white rounded-3xl shadow-2xl p-8 hover-lift">
+<div class="flex items-center mb-6">
+<div class="gradient-orange w-16 h-16 rounded-full flex items-center justify-center mr-4">
+<i class="fas fa-running text-white text-2xl"></i>
+</div>
+<div>
+<h3 class="text-3xl font-bold text-gray-800">Activity 4: Kinesthetic Encoding</h3>
+<p class="text-gray-600">Movement + Listen + Speak = Stronger memory trace</p>
+</div>
+</div>
+<div class="bg-gradient-to-br from-orange-50 to-yellow-50 p-6 rounded-2xl">
+<div class="grid md:grid-cols-2 gap-8">
+<div>
+<h4 class="text-xl font-semibold mb-4 text-gray-800">How It Works</h4>
+<div class="space-y-3">
+<div class="flex items-center p-3 bg-white rounded-lg shadow-sm">
+<span class="w-10 h-10 bg-orange-500 text-white rounded-full flex items-center justify-center mr-3 text-sm">ð</span>
+<span>Choose a physical movement</span>
+</div>
+<div class="flex items-center p-3 bg-white rounded-lg shadow-sm">
+<span class="w-10 h-10 bg-orange-500 text-white rounded-full flex items-center justify-center mr-3 text-sm">ð</span>
+<span>Listen to the word/phrase</span>
+</div>
+<div class="flex items-center p-3 bg-white rounded-lg shadow-sm">
+<span class="w-10 h-10 bg-orange-500 text-white rounded-full flex items-center justify-center mr-3 text-sm">ð£ï¸</span>
+<span>Speak while moving</span>
+</div>
+</div>
+</div>
+<div>
+<h4 class="text-xl font-semibold mb-4 text-gray-800">Try It Now!</h4>
+<div class="space-y-3">
+<div class="kinesthetic-word bg-white p-4 rounded-lg shadow-sm cursor-pointer hover:shadow-md transition" onclick="practiceKinesthetic('hello')">
+<div class="flex items-center justify-between">
+<div class="flex items-center">
+<span class="text-2xl mr-3">ð</span>
+<span class="font-medium">"Hello" - Wave gesture</span>
+</div>
+<i class="fas fa-play text-orange-600"></i>
+</div>
+</div>
+<div class="kinesthetic-word bg-white p-4 rounded-lg shadow-sm cursor-pointer hover:shadow-md transition" onclick="practiceKinesthetic('thank-you')">
+<div class="flex items-center justify-between">
+<div class="flex items-center">
+<span class="text-2xl mr-3">ð</span>
+<span class="font-medium">"Thank you" - Hands together</span>
+</div>
+<i class="fas fa-play text-orange-600"></i>
+</div>
+</div>
+<div class="kinesthetic-word bg-white p-4 rounded-lg shadow-sm cursor-pointer hover:shadow-md transition" onclick="practiceKinesthetic('goodbye')">
+<div class="flex items-center justify-between">
+<div class="flex items-center">
+<span class="text-2xl mr-3">ð</span>
+<span class="font-medium">"Goodbye" - Farewell wave</span>
+</div>
+<i class="fas fa-play text-orange-600"></i>
+</div>
+</div>
+</div>
+<div class="mt-4 hidden p-3 bg-yellow-100 text-yellow-800 rounded-lg" id="kinesthetic-feedback">
+                                    Perfect! Your brain is creating stronger memory connections.
+                                </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Final Reflection Section -->
+<section class="py-20 bg-white" id="reflection">
+<div class="container mx-auto px-6">
+<div class="text-center mb-12">
+<h2 class="text-4xl font-bold text-gray-800 mb-4">Final Reflection</h2>
+<p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Take a moment to reflect on your learning journey
+                </p>
+</div>
+<div class="max-w-4xl mx-auto">
+<div class="grid md:grid-cols-2 gap-8">
+<div class="bg-gradient-to-br from-blue-50 to-indigo-100 p-8 rounded-3xl shadow-xl">
+<h3 class="text-2xl font-bold text-gray-800 mb-6">
+<i class="fas fa-lightbulb text-yellow-500 mr-2"></i>
+                            Which method helped you the most?
+                        </h3>
+<div class="space-y-3">
+<label class="flex items-center p-4 bg-white rounded-lg cursor-pointer hover:shadow-md transition">
+<input class="mr-3" name="helpful-method" type="radio" value="self-diagnosis"/>
+<span>Self-Diagnosis - Audio without subtitles</span>
+</label>
+<label class="flex items-center p-4 bg-white rounded-lg cursor-pointer hover:shadow-md transition">
+<input class="mr-3" name="helpful-method" type="radio" value="roleplay"/>
+<span>Roleplay Practice - Interactive dialogues</span>
+</label>
+<label class="flex items-center p-4 bg-white rounded-lg cursor-pointer hover:shadow-md transition">
+<input class="mr-3" name="helpful-method" type="radio" value="linguistic"/>
+<span>Linguistic Tools - Minimal pairs &amp; prosody</span>
+</label>
+<label class="flex items-center p-4 bg-white rounded-lg cursor-pointer hover:shadow-md transition">
+<input class="mr-3" name="helpful-method" type="radio" value="kinesthetic"/>
+<span>Kinesthetic Encoding - Movement-based learning</span>
+</label>
+</div>
+</div>
+<div class="bg-gradient-to-br from-green-50 to-emerald-100 p-8 rounded-3xl shadow-xl">
+<h3 class="text-2xl font-bold text-gray-800 mb-6">
+<i class="fas fa-target text-green-500 mr-2"></i>
+                            Which technique will you keep using?
+                        </h3>
+<div class="space-y-3">
+<label class="flex items-center p-4 bg-white rounded-lg cursor-pointer hover:shadow-md transition">
+<input class="mr-3" name="continue-method" type="checkbox" value="daily-audio"/>
+<span>Daily audio practice without subtitles</span>
+</label>
+<label class="flex items-center p-4 bg-white rounded-lg cursor-pointer hover:shadow-md transition">
+<input class="mr-3" name="continue-method" type="checkbox" value="roleplay-partner"/>
+<span>Regular roleplay with a partner</span>
+</label>
+<label class="flex items-center p-4 bg-white rounded-lg cursor-pointer hover:shadow-md transition">
+<input class="mr-3" name="continue-method" type="checkbox" value="minimal-pairs"/>
+<span>Minimal pairs discrimination practice</span>
+</label>
+<label class="flex items-center p-4 bg-white rounded-lg cursor-pointer hover:shadow-md transition">
+<input class="mr-3" name="continue-method" type="checkbox" value="movement-learning"/>
+<span>Movement-based vocabulary learning</span>
+</label>
+</div>
+<textarea class="w-full mt-4 p-4 border border-gray-200 rounded-lg resize-none h-24 focus:outline-none focus:ring-2 focus:ring-green-500" placeholder="Additional thoughts or goals..."></textarea>
+</div>
+</div>
+<div class="text-center mt-12">
+<button class="interactive-button text-white px-12 py-4 rounded-full text-lg font-semibold shadow-2xl" onclick="submitReflection()">
+<i class="fas fa-check-circle mr-2"></i>
+                        Complete Your Journey
+                    </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Success Modal -->
+<div class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center" id="success-modal">
+<div class="bg-white rounded-3xl p-8 max-w-md mx-4 text-center bounce-in">
+<div class="w-20 h-20 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-6">
+<i class="fas fa-trophy text-white text-3xl"></i>
+</div>
+<h3 class="text-2xl font-bold text-gray-800 mb-4">Congratulations!</h3>
+<p class="text-gray-600 mb-6">You've completed all the unorthodox listening activities. Keep practicing these techniques to master English listening skills!</p>
+<button class="interactive-button text-white px-6 py-3 rounded-lg" onclick="closeModal()">
+                Continue Learning
+            </button>
+</div>
+</div>
+
+<script src="script.js"></script></body>
+</html>
+
+Perfect! I've created a modern, interactive website based on your PDF content about unorthodox ways to improve English listening skills. Here's what the website includes:
+
+## ð¯ Key Features:
+
+**Interactive Activities:**
+1. **Self-Diagnosis** - Audio simulation with text comparison
+2. **Roleplay Practice** - Three scenarios (coffee shop, directions, shopping)
+3. **Linguistic Tools** - Minimal pairs and prosody practice
+4. **Kinesthetic Encoding** - Movement-based learning with animations
+
+**Modern Design Elements:**
+- Gradient backgrounds and smooth animations
+- Progress tracking system
+- Responsive mobile-first design
+- Interactive cards with hover effects
+- Glass morphism effects
+- Smooth scrolling navigation
+
+## ð Best Deployment Options:
+
+**1. GitHub Pages (Recommended - Free)**
+- Push your HTML file to a GitHub repository
+- Enable GitHub Pages in repository settings
+- Perfect for static sites, reliable, and free
+
+**2. Netlify (Easy &amp; Feature-Rich)**
+- Drag and drop your HTML file to netlify.com
+- Automatic HTTPS and custom domains
+- Great for beginners with excellent features
+
+**3. Vercel (Developer-Friendly)**
+- Simple deployment with great performance
+- Excellent for static sites
+- Free tier with good limits
+
+**4. Surge.sh (Super Simple)**
+- Command line: `npm install -g surge` then `surge`
+- Deploy in seconds
+- Great for quick prototypes
+
+**My Recommendation:** Start with **Netlify** - just drag your HTML file to their website, and you'll get a live URL instantly. It's beginner-friendly and provides excellent performance!
+
+The website is fully functional and includes progress tracking, interactive elements, and a modern design that will engage language learners effectively.
+    <script id="html_badge_script1">
+        window.__genspark_remove_badge_link = "https://www.genspark.ai/api/html_badge/" +
+            "remove_badge?token=To%2FBnjzloZ3UfQdcSaYfDjI8ZF6Q%2BWjh4cmwRjNUID5Tx1PDK1WoimpyoG%2F%2BzgyUvBquF%2FsD6Q4YZuzb6HEPjPdEKDCawGNKc2MEqH3xTdgJI0cLwvSliz2PMJ%2FFt%2FGfh5iVLpjUEHfQZY1fH6hKTEifl%2B86tp7fYvgYPt09xEYXKCekZVfDYeRh98MG3mJ5gr7Zab5qncGC2s1TE7XZz3jIoQ9uHJfE7J24LqoJGSJ12XfupJJeRedgJpC%2FwB7MOhi2ypWEI4vRbuwHOw1mUyMMwLL24ZFZb7UsrOyJY8y43e2nl95mmsYBhPy3xcbFQsuOd2gd8SSne52cI%2FvyzC5m98khk6%2Big0yMjfqlc3oMzkC3S4dqRR9LwPV3cm8gHMgPoC7MaWRzjSgE7k1Tn5vZlwmxpD4QY2R%2FYxBsEW7BDIDtyLXqgsxRnJrdVdFAgmdTARrnJfE1c1h49G7rX%2BRrv3xDI1AwJ751iGzUD16EatZvBjHVImiOM%2FRHBdIklB7N9pZoym1kwLnXuk73hLBvZv%2BUD6wKPsazVr%2BPLnI%3D";
+        window.__genspark_locale = "en-US";
+        window.__genspark_token = "To/BnjzloZ3UfQdcSaYfDjI8ZF6Q+Wjh4cmwRjNUID5Tx1PDK1WoimpyoG/+zgyUvBquF/sD6Q4YZuzb6HEPjPdEKDCawGNKc2MEqH3xTdgJI0cLwvSliz2PMJ/Ft/Gfh5iVLpjUEHfQZY1fH6hKTEifl+86tp7fYvgYPt09xEYXKCekZVfDYeRh98MG3mJ5gr7Zab5qncGC2s1TE7XZz3jIoQ9uHJfE7J24LqoJGSJ12XfupJJeRedgJpC/wB7MOhi2ypWEI4vRbuwHOw1mUyMMwLL24ZFZb7UsrOyJY8y43e2nl95mmsYBhPy3xcbFQsuOd2gd8SSne52cI/vyzC5m98khk6+ig0yMjfqlc3oMzkC3S4dqRR9LwPV3cm8gHMgPoC7MaWRzjSgE7k1Tn5vZlwmxpD4QY2R/YxBsEW7BDIDtyLXqgsxRnJrdVdFAgmdTARrnJfE1c1h49G7rX+Rrv3xDI1AwJ751iGzUD16EatZvBjHVImiOM/RHBdIklB7N9pZoym1kwLnXuk73hLBvZv+UD6wKPsazVr+PLnI=";
+    </script>
+<script id="html_badge_script2" src="https://www.genspark.ai/html_badge.js"></script>
+<script id="html_notice_dialog_script" src="https://www.genspark.ai/notice_dialog.js"></script>
